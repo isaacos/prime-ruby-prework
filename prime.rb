@@ -13,6 +13,6 @@ def prime? (num)
   
   if new_array.size > 2 return false 
   else return true 
-  end
+  
   
 end
