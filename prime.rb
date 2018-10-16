@@ -14,7 +14,7 @@ def prime? (num)
     
   end
   
-  if new_array.size > 2 return false 
-  else return true 
+  if new_array.size == 2 return true 
+  else return false 
   
 end
