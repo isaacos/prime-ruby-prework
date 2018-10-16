@@ -1,8 +1,8 @@
 # Add  code here!
 
 def prime?(num)
-  range = (2..(num -1)).to_a
-  ans =true
+  range = (1..num).to_a
+  new_array = []
   
   range.each do |item|
     
