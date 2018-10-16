@@ -1,23 +1,17 @@
 # Add  code here!
 
 def prime?(num)
-  range = (1..num).to_a
-  new_array = []
+  range = (2..(num -1)).to_a
+  
   
   range.each do |item|
     
     if num % item == 0 
-      new_array << item 
+      return false
     end
-    
-    
     
   end
   
-  if new_array.size == 2 
-    return true 
-  else 
-    return false 
-  end
+ return true
   
 end
