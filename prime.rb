@@ -10,12 +10,11 @@ def prime? (num)
       new_array << item 
     end
     
-      if new_array.size > 2 return false 
-       else return true 
+    
     
   end
   
   if new_array.size > 2 return false 
   else return true 
   
-  
+end
