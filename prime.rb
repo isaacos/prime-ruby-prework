@@ -1,4 +1,5 @@
 # Add  code here!
+
 def prime? (num)
   range = (1..num)
   new_array = []
@@ -9,7 +10,7 @@ def prime? (num)
       new_array << item 
     end
     
-  end
+  
   
   if new_array.size > 2 return false 
   else return true 
