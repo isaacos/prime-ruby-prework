@@ -7,11 +7,15 @@ def prime?(num)
   range.each do |item|
     
     if (num % item) == 0 
-      ans = false
+      new_array << item
     end
     
   end
   
- return ans
+ if new_array.size == 2 
+   return true 
+ else 
+   return false 
+ end
   
 end
